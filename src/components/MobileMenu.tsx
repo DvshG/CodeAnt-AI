@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, GitBranch, Code2, ShieldCheck, HelpCircle, Settings, Phone, LogOut } from 'lucide-react';
-import { CodeAntLogo } from './CodeAntLogo';
+import { Logo } from './Logo';
 import { UserProfile } from './UserProfile';
 import { useNavigate } from 'react-router-dom';
 
@@ -27,7 +27,7 @@ export function MobileMenu({ onClose }: MobileMenuProps) {
     <div className="absolute top-0 left-0 right-0 bg-white">
       <div className="flex items-center justify-between p-4 border-b border-gray-200">
         <div className="flex items-center space-x-2">
-          <CodeAntLogo className="h-6 w-6" />
+          <Logo className="h-6 w-6" />
           <span className="text-lg font-semibold">CodeAnt AI</span>
         </div>
         <button 

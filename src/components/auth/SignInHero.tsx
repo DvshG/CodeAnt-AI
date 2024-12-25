@@ -1,12 +1,12 @@
 import React from 'react';
-import { CodeAntLogo } from '../CodeAntLogo';
+import { Logo } from '../Logo';
 
 export function SignInHero() {
   return (
     <div className="hidden lg:flex lg:w-1/2 bg-gray-50 flex-col items-start justify-center p-12">
       <div className="max-w-lg">
         <div className="mb-8">
-          <CodeAntLogo className="h-12 w-12" />
+          <Logo className="h-12 w-12" />
           <h2 className="text-2xl font-bold mt-4">AI to Detect & Autofix Bad Code</h2>
         </div>
 

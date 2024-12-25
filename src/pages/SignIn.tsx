@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CodeAntLogo } from '../components/CodeAntLogo';
+import { Logo } from '../components/Logo';
 import { SignInButton } from '../components/auth/SignInButton';
 import { DeploymentToggle } from '../components/auth/DeploymentToggle';
 import { PrivacyNotice } from '../components/auth/PrivacyNotice';
@@ -21,7 +21,7 @@ export default function SignIn() {
       <div className="hidden lg:flex lg:w-1/2 bg-[#FAFAFA] relative">
         <div className="absolute bottom-8 left-8">
           <div className="flex items-center space-x-2">
-            <CodeAntLogo className="h-8 w-8" />
+            <Logo className="h-8 w-8" />
             <span className="text-xl font-semibold">CodeAnt AI</span>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function SignIn() {
           <div className="bg-white border border-gray-200 rounded-lg p-8 mb-6">
             <div className="flex flex-col items-center mb-8">
               <div className="flex items-center space-x-3 mb-4">
-                <CodeAntLogo className="h-12 w-12" />
+                <Logo className="h-12 w-12" />
                 <span className="text-2xl font-semibold">CodeAnt AI</span>
               </div>
               <h1 className="text-2xl font-semibold">Welcome to CodeAnt AI</h1>
