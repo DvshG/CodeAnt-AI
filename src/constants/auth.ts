@@ -1,25 +1,28 @@
-import { Github, GitlabIcon, Cloud } from 'lucide-react';
-
+import { Github} from '../components/Github';
+import { Gitlab} from '../components/Gitlab';
+import { Azure} from '../components/Azure';
+import { Bitbucket} from '../components/Bitbucket';
+import { Key} from '../components/Key';
 export const SAAS_PROVIDERS = [
   {
     id: 'github',
-    name: 'Github',
+    name: 'Sign in with Github',
     icon: Github
   },
   {
     id: 'bitbucket',
-    name: 'Bitbucket',
-    icon: Cloud
+    name: 'Sign in with Bitbucket',
+    icon: Bitbucket
   },
   {
     id: 'azure',
-    name: 'Azure DevOps',
-    icon: Cloud
+    name: 'Sign in with Azure DevOps',
+    icon: Azure
   },
   {
     id: 'gitlab',
-    name: 'GitLab',
-    icon: GitlabIcon
+    name: 'Sign in with GitLab',
+    icon: Gitlab
   }
 ] as const;
 
@@ -27,12 +30,12 @@ export const SELF_HOSTED_PROVIDERS = [
   {
     id: 'gitlab-self-hosted',
     name: 'Self Hosted GitLab',
-    icon: GitlabIcon
+    icon: Gitlab
   },
   {
     id: 'sso',
     name: 'Sign in with SSO',
-    icon: Cloud
+    icon: Key
   }
 ] as const;
 

@@ -1,9 +1,11 @@
 import React from 'react';
-import { X, GitBranch, Code2, ShieldCheck, HelpCircle, Settings, Phone, LogOut } from 'lucide-react';
+import { X, Code2, Settings, Phone, LogOut } from 'lucide-react';
 import { Logo } from './Logo';
 import { UserProfile } from './UserProfile';
 import { useNavigate } from 'react-router-dom';
-
+import { Book } from './book';
+import { Home } from './home';
+import { Frame10 } from './Frame 10';
 interface MobileMenuProps {
   onClose: () => void;
 }
@@ -11,10 +13,10 @@ interface MobileMenuProps {
 export function MobileMenu({ onClose }: MobileMenuProps) {
   const navigate = useNavigate();
   const menuItems = [
-    { icon: GitBranch, label: 'Repositories' },
+    { icon: Home, label: 'Repositories' },
     { icon: Code2, label: 'AI Code Review' },
-    { icon: ShieldCheck, label: 'Cloud Security' },
-    { icon: HelpCircle, label: 'How to Use' },
+    { icon: Frame10, label: 'Cloud Security' },
+    { icon: Book, label: 'How to Use' },
     { icon: Settings, label: 'Settings' },
     { icon: Phone, label: 'Support' },
     { icon: LogOut, label: 'Logout', onClick: () => {

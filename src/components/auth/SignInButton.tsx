@@ -14,7 +14,7 @@ export function SignInButton({ icon: Icon, provider, onClick }: SignInButtonProp
       className="w-full flex items-center justify-center space-x-2 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors"
     >
       <Icon className="h-5 w-5" />
-      <span>Sign in with {provider}</span>
+      <span>{provider}</span>
     </button>
   );
 }

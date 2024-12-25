@@ -1,6 +1,6 @@
 import React from 'react';
 import { Repository } from '../../types/repository';
-import { HardDrive } from 'lucide-react';
+import { Database } from '../Database.tsx';
 
 interface RepositoryCardProps {
   repository: Repository;
@@ -24,7 +24,7 @@ export function RepositoryCard({ repository }: RepositoryCardProps) {
             <span className="h-2.5 w-2.5 rounded-full bg-blue-500"></span>
           </div>
           <div className="flex items-center space-x-1.5">
-            <HardDrive className="h-4 w-4" />
+            <Database className="h-4 w-4" />
             <span>{repository.size}</span>
           </div>
           <span>Updated {repository.updatedAt}</span>
