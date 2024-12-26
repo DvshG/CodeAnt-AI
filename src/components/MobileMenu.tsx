@@ -13,7 +13,7 @@ interface MobileMenuProps {
 export function MobileMenu({ onClose }: MobileMenuProps) {
   const navigate = useNavigate();
   const menuItems = [
-    { icon: Home, label: 'Repositories' },
+    { icon: Home, label: 'Repositories'},
     { icon: Code2, label: 'AI Code Review' },
     { icon: Frame10, label: 'Cloud Security' },
     { icon: Book, label: 'How to Use' },

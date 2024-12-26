@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 import { Logo } from './Logo';
 import { Book } from './book';
-import { Home } from './home';
+import { Home1 } from './home1';
 import { Frame10 } from './Frame 10';
 import { UserProfile } from './UserProfile';
 
@@ -21,7 +21,7 @@ export default function Sidebar({ onClose }: SidebarProps) {
   const navigate = useNavigate();
   
   const menuItems = [
-    { icon: Home, label: 'Repositories', active: true },
+    { icon: Home1, label: 'Repositories', active: true },
     { icon: Code2, label: 'AI Code Review' },
     { icon: Frame10, label: 'Cloud Security' },
     { icon: Book, label: 'How to Use' },
