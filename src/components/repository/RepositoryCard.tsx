@@ -8,7 +8,7 @@ interface RepositoryCardProps {
 
 export function RepositoryCard({ repository }: RepositoryCardProps) {
   return (
-    <div className="p-4 hover:bg-[#F5F5F5] transition-colors">
+    <div className="p-4  hover:bg-[#F5F5F5] transition-colors bg-[#FFFFFF]">
       <div>
         <div className="flex items-center space-x-2 mb-1">
           <h3 className="font-medium">{repository.name}</h3>

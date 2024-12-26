@@ -11,11 +11,11 @@ export default function Layout({ children }: LayoutProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#FAFAFA]">
       {/* Mobile Header */}
       <MobileHeader onMenuClick={() => setIsMobileMenuOpen(true)} />
       
-      <div className="flex">
+      <div className="flex ">
         {/* Desktop Sidebar */}
         <div className="hidden md:block w-64 fixed h-screen border-r border-gray-200">
           <Sidebar />
@@ -30,7 +30,7 @@ export default function Layout({ children }: LayoutProps) {
         )}
 
         {/* Main content */}
-        <main className="flex-1 md:ml-64">
+        <main className="flex-1 md:ml-64 ">
           <div className="p-4 md:p-8">
             {children}
           </div>

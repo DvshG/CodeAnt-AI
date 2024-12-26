@@ -20,7 +20,7 @@ export default function RepositoryList() {
   );
 
   return (
-    <div className="border border-gray-200 rounded-lg overflow-hidden">
+    <div className="border border-gray-200 rounded-lg overflow-hidden bg-[#FFFFFF]">
       <div className="border-b border-gray-200 p-4">
         <RepositoryHeader
           totalCount={repositories.length}

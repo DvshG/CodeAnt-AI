@@ -9,7 +9,7 @@ interface RepositoryHeaderProps {
 
 export function RepositoryHeader({ totalCount, onRefresh, onAdd }: RepositoryHeaderProps) {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 ">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-semibold mb-1">Repositories</h1>

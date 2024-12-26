@@ -20,8 +20,8 @@ export default function RepositoryList() {
   );
 
   return (
-    <div className="border border-[#D5D7DA] rounded-lg overflow-hidden bg-white">
-      <div className="border-b border-[#D5D7DA] p-4">
+    <div className="md:border md:border-[#D5D7DA] rounded-lg overflow-hidden bg-white">
+      <div className="md:border-b border-[#D5D7DA] p-4">
         <RepositoryHeader
           totalCount={repositories.length}
           onRefresh={handleRefresh}
