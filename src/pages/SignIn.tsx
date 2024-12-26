@@ -63,10 +63,10 @@ export default function SignIn() {
                     " />  
                   <Vector className="absolute top-3.5 left-4 w-6 h-6" />  
                 </div>  
-                <div className="text-right">  
-                  <div className="text-sm text-blue-600">This week</div>  
-                  <div className="text-lg font-semibold">↑ 14%</div>  
-                </div>  
+                <div className="text-right">
+                  <div className="text-lg font-semibold text-blue-600">↑ 14%</div>
+                  <div className="text-sm text-gray-600">This week</div>
+                </div> 
               </div>
               <div>
                 <div className="text-sm text-gray-600">Issues Fixed</div>
